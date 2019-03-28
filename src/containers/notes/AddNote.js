@@ -8,6 +8,7 @@ import FontAwesome from 'react-fontawesome'
 import { withTranslation } from 'react-i18next'
 import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
+import '../../index'
 import {BackBtn, BackText, Result, Here, Title, UpdatedWrap, Required} from './Notes_styled'
 
 import Input from '../../components/elements/input/Input'
@@ -36,7 +37,7 @@ class AddNote extends Component {
 
     showNewNote = (data, t) => (
         data ?
-            <UpdatedWrap>
+            <UpdatedWrap className='added'>
                 <Result>{t("great")} <FontAwesome name='check' /></Result>
                     <Link to={`/notes/${data.id}`}>
                          <Here>{t("clickToSeeNew")}</Here>

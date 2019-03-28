@@ -29,3 +29,8 @@
 .deleted {
   animation: fadeIn 1.5s infinite alternate;
 }
+
+.added {
+  animation-name: fadeIn;
+  animation-duration: .5s;
+}

@@ -16,14 +16,15 @@ color: ${variables.colors.strawberry};
 export const Here = styled.button`
 margin-top: 1rem;
 padding: 0.7rem 1.5rem;
-border: 1px solid ${variables.colors.black};
+border: 1px solid ${variables.colors.shark};
 border-radius: 0.5rem;
+font-size: 1.2rem;
 cursor: pointer;
 outline: none;
 `
 export const Result = styled.div`
 margin-top: 1rem;
-color: ${variables.colors.shark};
+color: ${variables.colors.strawberry};
 `
 export const BackText = styled.span`
 margin-left: 1rem;
