@@ -41,13 +41,15 @@ class Home extends Component {
     } 
 
     return (
-      <Box className='animated'>
-        <NoteSearch />
-        {this.renderNote(notes, t)}
-        {addBtn}
-      </Box>
-    )
-  }
+        <div>
+            <Box className='animated'>
+                <NoteSearch />
+                {this.renderNote(notes, t)}
+            </Box>
+            {addBtn}
+        </div>
+        )
+    }
 }
 
 Home.propTypes = {

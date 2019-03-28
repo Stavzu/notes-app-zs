@@ -1,7 +1,7 @@
 .animated {
-  animation-duration: 1s;
+  animation-duration: .5s;
   animation-fill-mode: both;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: .5s;
   -webkit-animation-fill-mode: both;
   opacity: 0;
   animation-name: fadeInUp;
@@ -16,4 +16,16 @@
       transform: translate3d(0,0,0);
       opacity: 1
   }
+}
+
+@keyframes fadeIn { 
+  from { opacity: 0 } 
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.deleted {
+  animation: fadeIn 1.5s infinite alternate;
 }

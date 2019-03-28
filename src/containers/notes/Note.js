@@ -8,6 +8,7 @@ import FontAwesome from 'react-fontawesome'
 import Moment from 'react-moment'
 import { withTranslation } from 'react-i18next'
 import PropTypes from 'prop-types'
+import '../../index'
 import { BoxTop, Personal, ItemTitle, Item, BackText, BackBtn,WrapDate, ItemDate } from './Notes_styled'
 
 import Container from '../../components/elements/container/Container'

@@ -7,6 +7,7 @@ import { withTranslation } from 'react-i18next'
 import { updateNote, getNote, clearNote, deleteNote  } from '../../Actions/index'
 import FontAwesome from 'react-fontawesome'
 import PropTypes from 'prop-types'
+import '../../index'
 import {BackBtn, BackText, Result, Here, Title, UpdatedWrap, DeletePart, Ask, Required} from './Notes_styled'
 
 import Button from '../../components/elements/Button'
@@ -71,7 +72,7 @@ class EditNote extends Component {
     redirectUser = () => {
         setTimeout(()=>{
             this.props.history.push('/')
-        },1500)
+        },2000)
     }
 
     componentWillUnmount(){
@@ -138,7 +139,7 @@ class EditNote extends Component {
 
             {
                 notes.noteDeleted ? 
-                    <UpdatedWrap>{t("deleted")} {this.redirectUser()}</UpdatedWrap>
+                    <UpdatedWrap className='deleted'>{t("deleted")} {this.redirectUser()}</UpdatedWrap>
                 :null
             } 
         </Container>

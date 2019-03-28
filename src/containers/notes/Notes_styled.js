@@ -11,7 +11,7 @@ export const UpdatedWrap = styled.div`
 font-size: 1.4rem;
 margin-top: 2.5rem;
 text-align: center;
-color: ${variables.colors.shark};
+color: ${variables.colors.strawberry};
 `
 export const Here = styled.button`
 margin-top: 1rem;
