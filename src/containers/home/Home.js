@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import styled  from 'styled-components'
 import * as variables from '../../styles/variables'
 import { connect } from 'react-redux'
 import { getNotes } from '../../Actions/index'
 import { Link } from 'react-router-dom'
+import '../../index.css'
 import { withTranslation } from 'react-i18next'
 
 import NoteSearch from '../../components/search/NoteSearch'
@@ -40,7 +41,7 @@ class Home extends Component {
     } 
 
     return (
-      <Box>
+      <Box className='animated'>
         <NoteSearch />
         {this.renderNote(notes, t)}
         {addBtn}

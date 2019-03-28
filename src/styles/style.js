@@ -50,3 +50,4 @@ export const GlobalStyle = createGlobalStyle`
       -webkit-appearance:none;
   }
 `
+
