@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
       color: ${variables.colors.hellGrey};
     }
 
-  a { 
+  a, a:hover { 
       text-decoration: none !important; 
       color: ${variables.colors.hellGrey};
     }

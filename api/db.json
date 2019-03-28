@@ -29,10 +29,11 @@
       "updateAt": "2019-03-27T23:19:18.454Z"
     },
     {
-      "note": "Test app",
+      "id": 32,
+      "note": "Test ap",
       "description": "Biscuit powder candy gummies wafer cotton candy. Cheesecake dessert apple pie tart gummies cookie dessert marshmallow ice cream. ",
       "createAt": "2019-03-28T20:22:24.626Z",
-      "id": 32
+      "updateAt": "2019-03-28T20:36:03.576Z"
     },
     {
       "note": "Create cupcakes",
@@ -51,12 +52,6 @@
       "description": "",
       "createAt": "2019-03-28T20:28:03.226Z",
       "id": 35
-    },
-    {
-      "note": "Buy book",
-      "description": "",
-      "createAt": "2019-03-28T20:28:29.045Z",
-      "id": 36
     },
     {
       "note": "Test test test",
