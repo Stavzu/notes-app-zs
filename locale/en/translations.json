@@ -29,5 +29,6 @@
     "findNote": "Find your note...",
     "notesNoAvailable": "No notes available",
     "clickforNew": "Click here for add new note",
-    "required": "Required"
+    "required": "Required",
+    "noDescription": "No description"
 }

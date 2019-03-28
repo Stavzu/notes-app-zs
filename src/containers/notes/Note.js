@@ -9,7 +9,7 @@ import Moment from 'react-moment'
 import { withTranslation } from 'react-i18next'
 import PropTypes from 'prop-types'
 import '../../index'
-import { BoxTop, Personal, ItemTitle, Item, BackText, BackBtn,WrapDate, ItemDate } from './Notes_styled'
+import { BoxTop, Personal, ItemTitle, Item, BackText, BackBtn,WrapDate, ItemDate, NoValue } from './Notes_styled'
 
 import Container from '../../components/elements/container/Container'
 import Button from '../../components/elements/Button'
@@ -34,7 +34,10 @@ class Note extends Component {
         <Personal>
           <Item>
             <ItemTitle>{t("description")}</ItemTitle>
-            <span>{data.description}</span>
+            {data.description.length === 0
+              ? <NoValue>{t("noDescription")}</NoValue>
+              :<span>{data.description}</span>
+            }
           </Item>
         </Personal>
         <WrapDate>

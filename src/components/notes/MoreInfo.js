@@ -9,7 +9,11 @@ import '../../index'
 const MoreInfo = ({note, t}) => {
     return (
             <About>
-                <div data-tip data-for='happyFace'>{note.description}</div>
+                {note.description.length === 0
+                    ? <NoValue>{t("noDescription")}</NoValue>
+                    :<span>{note.description}</span>
+                }
+                
                 {!note.createAt
                     // if is it mock notes from json server, the date is not available, for get date create new note 
                     ? <Date>{t("createAt")}: {t("notAvailable")}</Date>
@@ -44,4 +48,8 @@ position: relative;
 text-align: right;
 color: ${variables.colors.skyBlue};
 margin-top: 1rem;
+`
+const NoValue = styled.span`
+color: ${variables.colors.silver};
+font-size: 1.2rem;
 `

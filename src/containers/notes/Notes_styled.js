@@ -123,3 +123,8 @@ display: flex;
 margin: 0.5rem;
 font-size: 1.4rem;
 `
+
+export const NoValue = styled.span`
+color: ${variables.colors.silver};
+font-size: 1.2rem;
+`

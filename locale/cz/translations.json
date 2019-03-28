@@ -29,5 +29,6 @@
     "findNote": "Najdi svoji poznámku...",
     "notesNoAvailable": "Žádné poznámky nejsou k dispozici",
     "clickforNew": "Klikni zde pro vytvoření poznámky",
-    "required": "Povinné pole"
+    "required": "Povinné pole",
+    "noDescription": "Bez popisu"
 }
