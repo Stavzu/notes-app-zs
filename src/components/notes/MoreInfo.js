@@ -9,11 +9,11 @@ import '../../index'
 const MoreInfo = ({note, t}) => {
     return (
             <About>
-                {note.description.length === 0
+                {!note.description.length
                     ? <NoValue>{t("noDescription")}</NoValue>
                     :<span>{note.description}</span>
                 }
-                
+
                 {!note.createAt
                     // if is it mock notes from json server, the date is not available, for get date create new note 
                     ? <Date>{t("createAt")}: {t("notAvailable")}</Date>

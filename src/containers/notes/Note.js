@@ -34,7 +34,7 @@ class Note extends Component {
         <Personal>
           <Item>
             <ItemTitle>{t("description")}</ItemTitle>
-            {data.description.length === 0
+            {!data.description.length
               ? <NoValue>{t("noDescription")}</NoValue>
               :<span>{data.description}</span>
             }
