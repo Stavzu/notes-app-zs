@@ -7,10 +7,6 @@ import * as variables from '../../styles/variables'
 
 
 const MoreInfo = ({note, t}) => {
-    const spec = {
-            background: 'yellow',
-            fontSize: '10rem'
-    }
     return (
             <About>
                 <div data-tip data-for='happyFace'>{note.description}</div>
