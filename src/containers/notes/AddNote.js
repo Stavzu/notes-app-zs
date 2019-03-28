@@ -62,7 +62,7 @@ class AddNote extends Component {
         const { formdata } = this.state;
         const isEnabled = this.state.formdata.note.length > 0
         return (
-            <div>
+            <div className='animated'>
                  <Link to={'/'}>
                     <BackBtn><FontAwesome name='arrow-left' /><BackText>{t("backToList")}</BackText></BackBtn>
                 </Link> 

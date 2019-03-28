@@ -4,13 +4,12 @@ import PropTypes from 'prop-types'
 import Moment from 'react-moment'
 import { withTranslation } from 'react-i18next'
 import * as variables from '../../styles/variables'
-
+import '../../index'
 
 const MoreInfo = ({note, t}) => {
     return (
             <About>
                 <div data-tip data-for='happyFace'>{note.description}</div>
-
                 {!note.createAt
                     // if is it mock notes from json server, the date is not available, for get date create new note 
                     ? <Date>{t("createAt")}: {t("notAvailable")}</Date>

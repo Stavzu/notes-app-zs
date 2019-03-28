@@ -86,7 +86,7 @@ class EditNote extends Component {
       const { notes } = this.props;
       const isEnabled = this.state.formdata.note.length > 0;
     return (
-      <div>
+      <div className='animated'>
             <Link to={'/'}>
                 <BackBtn><FontAwesome name='arrow-left' /><BackText>{t("backToList")}</BackText></BackBtn>
             </Link>
