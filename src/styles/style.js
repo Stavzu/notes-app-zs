@@ -19,9 +19,10 @@ export const GlobalStyle = createGlobalStyle`
     }
 
   a { 
-      text-decoration: none; 
+      text-decoration: none !important; 
       color: ${variables.colors.hellGrey};
     }
+
   body { 
       font-size: 1.6rem; 
       margin:0;
