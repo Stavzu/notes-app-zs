@@ -33,7 +33,6 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 2.4rem; 
     } 
 
-
   textarea[type="text"]:hover, 
   input[type="text"]:hover, 
   textarea:active, 
