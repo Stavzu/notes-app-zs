@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it works backbtn 1`] = `
+.c0 {
+  padding: .5rem;
+  margin: 2rem;
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`it works backtext 1`] = `
+.c0 {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`it works here 1`] = `
+.c0 {
+  margin-top: 1rem;
+  padding: .7rem 1.5rem;
+  border: .1rem solid #000000;
+  border-radius: .5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`it works result 1`] = `
+.c0 {
+  margin-top: 1rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`it works title 1`] = `
+.c0 {
+  font-size: 2rem;
+  padding: .5rem;
+  text-align: center;
+  color: #81cfdf;
+}
+
+<h1
+  className="c0"
+/>
+`;
+
+exports[`it works updatedwrap 1`] = `
+.c0 {
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+<div
+  className="c0"
+/>
+`;
