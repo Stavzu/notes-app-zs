@@ -1,5 +1,5 @@
 # notes-app-zs
-Basic notes app uses json-server. Please use dev branch
+Basic notes app uses json-server which was created for BSC company in two days. Please use dev branch
 
 # todo for next week
 More tests, better gui, responsive desing, redux thunk ...
